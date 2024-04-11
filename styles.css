@@ -15,16 +15,13 @@ body, html {
     height: 50px;
     background-color: red;
     border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: random;
     transform: translate(-50%, -50%);
 }
 #goal {
     width: 50px;
     height: 50px;
     background-color: green;
-    position: absolute;
-    top: 80%;
-    left: 80%;
+    position: random;
+    transform: translate(-50%, -50%);
 }

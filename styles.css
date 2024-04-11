@@ -5,8 +5,8 @@ body, html {
 }
 #game-container {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 900px;
+    height: 900px;
     margin: 50px auto;
     border: 2px solid black;
 }
@@ -20,7 +20,15 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#goal {
+#goal 1 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+#goal 2 {
     width: 50px;
     height: 50px;
     background-color: green;
